@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+statsmodels>=0.13
