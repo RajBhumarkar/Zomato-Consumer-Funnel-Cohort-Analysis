@@ -43,4 +43,4 @@ SIMULATED revenue per user after cost: control 126.76, treatment 235.92.
 SIMULATED decision: SHIP. Ship only with a positive significant lift and no guardrail drop.
 SIMULATED detection over 1,000 tests: 5.50%, compared with the 80% target.
 Limits: Faker data, an assumed lift and treatment spend, one offer and one window; no real offer was sent.
-Run [03_experiment_design.ipynb](03_experiment_design.ipynb) from the repo root after installing `requirements.txt`.
+Run [experiment_design.ipynb](experiment_design.ipynb) from the repo root after installing `requirements.txt`.
