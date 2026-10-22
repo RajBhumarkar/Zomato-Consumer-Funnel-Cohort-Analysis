@@ -38,9 +38,4 @@ The guardrail is period-3 revenue per eligible user after a 10% treatment discou
 Baseline: 25.49% (26 of 102 eligible users). Only 51 users are available per group.
 A 5 percentage point lift needs 1264 users per group at 5% significance and 80% power, two-sided.
 This dataset is too small; a real test would need more eligible users and complete follow-up.
-SIMULATED result: lift 19.61 points, p = 0.0265, 95% interval [2.25, 35.53] points.
-SIMULATED revenue per user after cost: control 126.76, treatment 235.92.
-SIMULATED decision: SHIP. Ship only with a positive significant lift and no guardrail drop.
-SIMULATED detection over 1,000 tests: 5.50%, compared with the 80% target.
-Limits: Faker data, an assumed lift and treatment spend, one offer and one window; no real offer was sent.
-Run [experiment_design.ipynb](experiment_design.ipynb) from the repo root after installing `requirements.txt`.
+
